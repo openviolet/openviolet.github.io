@@ -1,5 +1,13 @@
-# Open Violet
+---
+layout:     post
+title:      Open Violet
+date:       2018-07-03
+categories: about
+summary:    "Open Violet은 각기 다른 다양한 사회적 계층에 속한 누구나가 참여하여 민주적으로 양질의 컨텐츠 생산에 참여할 수 있는 자유 언론을 꿈꿉니다."
+comments: False
+---
 
+# 모두를 위한 창구 Open Violet
 Open Violet은 각기 다른 다양한 사회적 계층에 속한 누구나가 참여하여 민주적으로 양질의 컨텐츠 생산에 참여할 수 있는 자유 언론을 꿈꿉니다.
 
 ## 자유투고

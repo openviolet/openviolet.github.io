@@ -1,0 +1,100 @@
+# Site settings
+title:       Open Violet
+email:       tabby@openviolet.me
+description: "Open Violet은 각기 다른 다양한 사회적 계층에 속한 누구나가 참여하여 민주적으로 양질의 컨텐츠 생산에 참여할 수 있는 자유 언론을 꿈꿉니다."
+baseurl:     ""
+url:         "https://openviolet.github.io"
+date_format: "%Y %b %-d"
+
+# About author
+author: Open Violet
+author-email: tabby@openviolet.me
+author-website: https://openviolet.me
+about-author: Open Violet은 각기 다른 다양한 사회적 계층에 속한 누구나가 참여하여 민주적으로 양질의 컨텐츠 생산에 참여할 수 있는 자유 언론을 꿈꿉니다.
+
+# Google services
+google_verification:
+
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
+google_analytics:
+google_tag_manager:
+
+# Bing services
+bing_verification:
+
+# Optional features
+animated:             true
+show_related_posts:   false
+show_social_icons:    true
+ajaxify_contact_form: false
+enable_mathjax: false
+extended_fonts: false
+enable_anchorjs: true
+
+# Facebook Page integration
+# (for instant articles and other stuff)
+fb_page: false
+fb_page_id:
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: 
+
+# Social icons
+github_username: openviolet
+bitbucket_username:
+stackoverflow_id:
+twitter_username: openviolet
+skype_username:
+steam_nickname:
+google_plus_id:
+linkedin_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+
+# Post sharing icons
+show_sharing_icons: true
+# Change to 'true' to enable individual icons
+share_facebook: true
+share_twitter: true
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+text:
+  pagination:
+    newer: '최신 글'
+    older: '이전 글'
+  share_buttons:
+    text:         '이 컨텐츠 공유하기'
+    facebook:     'Facebook 공유'
+    twitter:      'Twitter 공유'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon: 'Coming soon...'
+  og_locale: 'en_US'
+
+# Build settings
+markdown:     kramdown
+kramdown:
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     4
+sass:
+  compressed: true
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+exclude: [vendor]

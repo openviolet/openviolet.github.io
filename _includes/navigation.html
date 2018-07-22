@@ -1,0 +1,8 @@
+{% for page in site.pages %}
+    {% if page.tags contains "about" %}
+        <a href="{{ page.url }}">{{ page.title }}</a>
+    {% endif %}
+    {% if page.tags contains "categories" %}
+        <a href="{{ page.url }}">{{ page.title }}</a>
+    {% endif %}
+{% endfor %}
