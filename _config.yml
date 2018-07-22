@@ -73,7 +73,7 @@ text:
     newer: '최신 글'
     older: '이전 글'
   share_buttons:
-    text:         '공유'
+    text:         '공유하기 :'
     facebook:     'Facebook 공유'
     twitter:      'Twitter 공유'
     googleplus:   'Share on Google+'
