@@ -1,7 +1,5 @@
 <div class="share-page">
   {{ site.text.share_buttons.text }}
-
-  <div class="share-links">
     {% if site.share_facebook %}
       <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="{{ site.text.share_buttons.facebook }}"></a>
     {% endif %}
@@ -21,6 +19,4 @@
     {% if site.share_tumblr %}
       <a class="fa fa-tumblr" href="http://www.tumblr.com/share/link?url={{ site.url }}{{ page.url }}&name={{ page.title }}" rel="nofollow" target="_blank" title="{{ site.text.share_buttons.tumblr }}"></a>
     {% endif %}
-
-  </div>
 </div>
