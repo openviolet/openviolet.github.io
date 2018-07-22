@@ -7,10 +7,11 @@ url:         "https://openviolet.github.io"
 date_format: "%Y %b %-d"
 
 # About author
-author: Open Violet
-author-email: tabby@openviolet.me
+author: 익명의 작가
+author-image: anon-violet.png
+author-email: anon@openviolet.me
 author-website: https://openviolet.me
-about-author: Open Violet은 각기 다른 다양한 사회적 계층에 속한 누구나가 참여하여 민주적으로 양질의 컨텐츠 생산에 참여할 수 있는 자유 언론을 꿈꿉니다.
+about-author: Open Violet 에서는 이메일, 웹사이트 등의 기재 없는 익명 투고를 환영합니다.
 
 # Google services
 google_verification:
